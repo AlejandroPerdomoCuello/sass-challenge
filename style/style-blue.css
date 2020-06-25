@@ -1,3 +1,18 @@
+.buttonPurple {
+  color: black;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+  background-color: purple;
+}
+
+.buttonPurple:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
 .buttonRed {
   color: black;
   display: inline-block;
@@ -13,24 +28,9 @@
           transform: scale(0.9);
 }
 
-.buttonBlue {
-  color: black;
-  display: inline-block;
-  text-align: center;
-  border-radius: 5px;
-  padding: 8px 20px;
-  margin: 3px;
-  background-color: blue;
-}
-
-.buttonBlue:hover {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
-}
-
 body {
   font: 100% "Space Mono", monospace;
-  color: #2748b3;
+  color: #222094;
   margin: 0px;
   padding: calc($article-paddding *0);
   background-color: #000;
@@ -101,7 +101,7 @@ article pre.after {
 h1,
 h2,
 h6 {
-  color: #6b8eff;
+  color: #2a26ff;
 }
 
 h1 {
@@ -124,7 +124,7 @@ h6 {
   border: 1px solid #ccc;
   padding: 16px;
   margin: 16px;
-  color: #2748b3;
+  color: #222094;
   background-color: #000;
 }
 
@@ -142,4 +142,4 @@ h6 {
 .warning {
   background-color: orange;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style-blue.css.map */
